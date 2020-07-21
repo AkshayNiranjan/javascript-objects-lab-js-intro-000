@@ -12,5 +12,5 @@ function deleteFromObjectByKey(o,k){
 }
 function destructivelyDeleteFromObjectByKey(o,k){
   delete o[k]
-  return 0
+  return o
 }

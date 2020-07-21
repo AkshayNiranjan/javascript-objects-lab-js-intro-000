@@ -5,3 +5,6 @@ function destructivelyUpdateObjectWithKeyAndValue(o,k,v){
   o[k]=v
   return o
 }
+function deleteFromObjectByKey(o,k){
+  
+}

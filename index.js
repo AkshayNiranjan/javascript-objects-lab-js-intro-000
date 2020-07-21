@@ -6,7 +6,7 @@ function destructivelyUpdateObjectWithKeyAndValue(o,k,v){
   return o
 }
 function deleteFromObjectByKey(o,k){
-  car n=Object.assign({},o)
+  var n=Object.assign({},o)
   delete n[k]
   return n
 }

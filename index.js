@@ -10,3 +10,4 @@ function deleteFromObjectByKey(o,k){
   delete n[k]
   return n
 }
+function 
